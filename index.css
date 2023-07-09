@@ -1,8 +1,35 @@
 body {
     background-color: azure;
+    padding: 0;
+    margin: 0;
 }
 
 .beso {
     color: darkseagreen;
     text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+
+    height: 600px;
+    width: 80%;
+    align-content: center;
+    position: center;
+    text-align: center;
+    padding-left: 150px;
+
+
+}
+.cover-img {
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
